@@ -1504,6 +1504,13 @@
         <object>Solution</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <profileActionOverrides>
+        <actionName>Tab</actionName>
+        <content>Sales_Home</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+        <type>Flexipage</type>
+    </profileActionOverrides>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
