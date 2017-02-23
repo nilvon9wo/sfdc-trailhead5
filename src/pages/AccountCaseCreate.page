@@ -1,0 +1,37 @@
+<apex:page standardController="Account" extensions="AccountCaseCreateVFCtrlExt" showHeader="false"> 
+    <apex:stylesheet value="{!URLFOR($Resource.AccountCaseCreate_CSS)}" />
+    <apex:includeScript value="/canvas/sdk/js/publisher.js" />
+    <apex:includeScript value="{!URLFOR($Resource.AccountCaseCreate_JS)}" />
+    <div>
+        <apex:form >
+            <apex:actionFunction action="{!createCase}" name="createCase" rerender="output" oncomplete="refreshFeed();"/>
+            <apex:outputPanel id="output">
+                <div class="custom-publisher-block">
+                    <label class="custom-publisher-label">Account:&nbsp; 
+                        <apex:inputField styleClass="custom-publisher-label--account-id-input" value="{!theCase.accountId}" />
+                    </label>
+                    &nbsp;&nbsp;&nbsp;
+                    <label>Contact:&nbsp;
+                        <apex:inputField value="{!theCase.contactId}" />
+                    </label>
+                </div>
+                <apex:inputField styleClass="custom-publisher--description" value="{!theCase.Description}" />
+                <div class="custom-publisher-block custom-publisher-block--status">
+                    <label> Status:&nbsp;
+                        <apex:inputField value="{!theCase.status}" />
+                    </label>
+                    &nbsp;&nbsp;&nbsp;
+                    <label>Priority:&nbsp;
+                        <apex:inputField value="{!theCase.priority}" />
+                    </label>
+                    &nbsp;&nbsp;&nbsp;
+                    <label>Origin:&nbsp;
+                        <apex:inputField value="{!theCase.origin}" />
+                    </label>
+                </div>
+            </apex:outputPanel>
+        </apex:form>
+        <br/>
+        <button id="addCaseButton" class="custom-publisher--button" type="button" onclick="createCase();" >Create Case</button>
+    </div>
+</apex:page>

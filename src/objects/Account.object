@@ -175,6 +175,17 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Last_Year_Revenue_Generated__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Year Revenue Generated</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Location__c</fullName>
         <displayLocationInDecimal>true</displayLocationInDecimal>
         <externalId>false</externalId>

@@ -71,6 +71,10 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>AccountCaseCreateVFCtrlExt</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ContactsTodayController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -87,6 +91,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>OpportunitiesStageAndCloseDatesVFCtrlExt</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>OpportunityAlertController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -100,6 +108,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>WarehouseDataInstall</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tenPageSizeVFExt</apexClass>
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
@@ -179,6 +191,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Jigsaw</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Last_Year_Revenue_Generated__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1833,11 +1850,19 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <pageAccesses>
+        <apexPage>AccountCaseCreate</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>Account_Location</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>FindNearbyWarehousesPage</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>OpportunitiesEditStageAndCloseDates</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
     <pageAccesses>

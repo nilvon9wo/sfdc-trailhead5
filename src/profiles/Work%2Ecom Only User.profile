@@ -71,6 +71,10 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>AccountCaseCreateVFCtrlExt</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ContactsTodayController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -87,6 +91,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>OpportunitiesStageAndCloseDatesVFCtrlExt</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>OpportunityAlertController</apexClass>
         <enabled>false</enabled>
     </classAccesses>
@@ -100,6 +108,10 @@
     </classAccesses>
     <classAccesses>
         <apexClass>WarehouseDataInstall</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>tenPageSizeVFExt</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -180,6 +192,11 @@
         <editable>true</editable>
         <field>Account.Jigsaw</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.Last_Year_Revenue_Generated__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1617,11 +1634,19 @@
         <layout>WorkPerformanceCycle-Performance Cycle Layout - Winter %2716</layout>
     </layoutAssignments>
     <pageAccesses>
+        <apexPage>AccountCaseCreate</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
         <apexPage>Account_Location</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>
         <apexPage>FindNearbyWarehousesPage</apexPage>
+        <enabled>false</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>OpportunitiesEditStageAndCloseDates</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
     <pageAccesses>

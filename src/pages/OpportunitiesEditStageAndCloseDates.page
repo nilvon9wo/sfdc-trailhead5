@@ -1,0 +1,20 @@
+<apex:page standardController="Opportunity" recordSetVar="opportunities" extensions="OpportunitiesStageAndCloseDatesVFCtrlExt">
+    <apex:form >
+        <apex:pageBlock title="Edit Stage and Close Date" mode="edit">
+            <apex:pageMessages />
+            <apex:pageBlockButtons location="top">
+                <apex:commandButton value="Save" action="{!save}" />
+                <apex:commandButton value="Cancel" action="{!cancel}" />
+            </apex:pageBlockButtons>
+            <apex:pageBlockTable value="{!selected}" var="opportunity">
+                <apex:column value="{!opportunity.name}" />
+                <apex:column headerValue="Stage">
+                    <apex:inputField value="{!opportunity.stageName}" />
+                </apex:column>
+                <apex:column headerValue="Close Date">
+                    <apex:inputField value="{!opportunity.closeDate}" />
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
