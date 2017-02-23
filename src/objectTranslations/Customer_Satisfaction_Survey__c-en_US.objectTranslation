@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Customer Satisfaction Survey</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Customer Satisfaction Surveys</value>
+    </caseValues>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Satisfaction --></label>
+        <name>Satisfaction__c</name>
+        <picklistValues>
+            <masterLabel>No opinion</masterLabel>
+            <translation><!-- No opinion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Satisfied</masterLabel>
+            <translation><!-- Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somewhat satisfied</masterLabel>
+            <translation><!-- Somewhat satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somewhat unsatisfied</masterLabel>
+            <translation><!-- Somewhat unsatisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsatisfied</masterLabel>
+            <translation><!-- Unsatisfied --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service --></label>
+        <name>Service__c</name>
+        <picklistValues>
+            <masterLabel>Friendly</masterLabel>
+            <translation><!-- Friendly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No opinion</masterLabel>
+            <translation><!-- No opinion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unfriendly</masterLabel>
+            <translation><!-- Unfriendly --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

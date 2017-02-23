@@ -44,4 +44,16 @@
         <name>standard__LightningSales</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Warehouse</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Delivery_Tracker</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Warehouse_Lightning</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
