@@ -9,6 +9,10 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Top_Accounts_and_Opportunities</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>Dashboards</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
@@ -19,6 +23,10 @@
     <appMenuItems>
         <name>Search</name>
         <type>StandardAppMenuItem</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>MyData</name>
+        <type>CustomTab</type>
     </appMenuItems>
     <appMenuItems>
         <name>People</name>
