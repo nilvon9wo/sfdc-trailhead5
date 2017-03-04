@@ -10,13 +10,13 @@ public class LTNG_CaseStudyAuraCtrl {
 	} 
 	
 	@AuraEnabled
-	public static String getCaseStudy (String caseStudyId) {
-		return (new LTNG_CaseStudyAuraCtrl()).selectCaseStudy((Id) caseStudyId);
+	public static String getCaseStudyName (String recordId) {
+		return (new LTNG_CaseStudyAuraCtrl()).selectCaseStudyName((Id) recordId);
 	}
 	
-	public String selectCaseStudy (Id caseStudyId) {
+	private String selectCaseStudyName (Id caseStudyId) {
 		Set<Id> caseStudyIdSet = new Set<Id>{caseStudyId};
 		List<Case_Study__c> caseStudyList = (List<Case_Study__c>) this.caseStudySelector.selectSObjectsById(caseStudyIdSet);
 		return caseStudyList[0].name__c; 
 	}
-} 
+}

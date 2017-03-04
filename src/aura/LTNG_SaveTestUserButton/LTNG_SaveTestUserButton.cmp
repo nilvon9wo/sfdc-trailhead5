@@ -1,0 +1,8 @@
+<aura:component controller="LTNG_TestUserAuraCtrl">
+    <aura:attribute name="testUser" type="Test_User__c" default="{sobjectType: 'Test_User__c'}" />
+    <aura:attribute name="caseStudyId" type="String" description="Case Study id"/>
+    
+    <aura:registerEvent name="testUserInputErrorsEvent" type="c:LTNG_TestUserInputErrorsEvent" />
+                        
+	<ui:button class="slds-button slds-button--neutral" press="{!c.clientSave}" label="Save User" />
+</aura:component>

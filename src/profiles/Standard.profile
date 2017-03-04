@@ -83,11 +83,27 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>DB_CaseStudySelector</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DB_GenericDml</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>FindNearby</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>FindNearbyExt</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LTNG_CaseStudyAuraCtrl</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>LTNG_TestUserAuraCtrl</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -108,6 +124,186 @@
     </classAccesses>
     <classAccesses>
         <apexClass>WarehouseDataInstall</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_ApexMocks</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_ApexMocksTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_ApexMocksUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_ApexMocksUtilsTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_Application</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_ApplicationTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_ArgumentCaptor</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_ArgumentCaptorTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_IDGenerator</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_IDGeneratorTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_IMatcher</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_ISObjectDomain</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_ISObjectSelector</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_ISObjectUnitOfWork</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_Inheritor</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_InheritorTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_Match</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_MatchTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_MatcherDefinitions</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_MatcherDefinitionsTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_MatchersReturnValue</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_MethodArgValues</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_MethodArgValuesTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_MethodCountRecorder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_MethodReturnValue</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_MethodReturnValueRecorder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_Mocks</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_MyList</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_QualifiedMethod</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_QualifiedMethodTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_QueryFactory</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_QueryFactoryTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_SObjectDescribe</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_SObjectDescribeTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_SObjectDomain</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_SObjectDomainTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_SObjectMocks</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_SObjectSelector</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_SObjectSelectorTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_SObjectUnitOfWork</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_SObjectUnitOfWorkTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_SecurityUtils</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_SecurityUtilsTest</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_StringBuilder</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>fflib_StringBuilderTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
@@ -662,6 +858,11 @@
         <editable>true</editable>
         <field>Case.Type</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case_Study__c.Name__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -1465,6 +1666,31 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>Test_User__c.Case_Study__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_User__c.Email__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_User__c.Name__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_User__c.Nickname__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Test_User__c.Password__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>Warehouse__c.City__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1500,6 +1726,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseClose-Close Case Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case_Study__c-Case Study Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Contact Layout</layout>
@@ -1593,6 +1822,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_User__c-Test User Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>
@@ -1816,6 +2048,10 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
+        <tab>Case_Study__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Data</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -1834,6 +2070,10 @@
     <tabVisibilities>
         <tab>MyData</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_User__c</tab>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Top_Accounts_and_Opportunities</tab>

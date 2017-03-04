@@ -1,0 +1,43 @@
+<aura:component implements="force:lightningQuickActionWithoutHeader,force:hasRecordId" controller="LTNG_CaseStudyAuraCtrl">
+    <!-- Public attributes -->
+    <aura:attribute name="testUser" type="Test_User__c" default="{sobjectType: 'Test_User__c'}"/>
+    <aura:attribute name="hasErrors" type="Boolean" description="Indicate whether there were failures or not" />
+    <aura:attribute name="caseStudyName" type="String" />
+    <aura:attribute name="recordId" type="String" description="Case Study id"/>
+    
+    <!-- "Private" attributes, for binding with input componets -->
+    <aura:attribute name="firstName" type="String" />
+    <aura:attribute name="lastName" type="String" />
+    <aura:attribute name="nickName" type="String" />
+    <aura:attribute name="email" type="String" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.init}" />
+    <aura:handler event="c:LTNG_TestUserInputErrorsEvent" action="{!c.handleInputErrors}"  />
+    
+    <div class="slds-page-header" role="banner">
+        <p class="slds-text-heading--label">Case Study</p>
+        <h1 class="slds-page-header__title slds-m-right-small slds-truncate slds-align-left" title="Case Study Title">{!v.caseStudyName}</h1>
+    </div>
+    <br/>
+    
+    <aura:if isTrue="{!v.hasErrors}">
+        <div class="userCreateError">
+            <ui:message title="Error" severity="error" closable="true">
+                Please review the error messages.
+            </ui:message>
+        </div> 
+    </aura:if>
+    
+    <div class="slds-form--stacked">
+        <c:LTNG_SldsInput label="first name" fieldName="firstName" value="{!v.testUser.firstName}" required="true" updateForm="{!c.updateNickname}" />
+        <c:LTNG_SldsInput label="last name" fieldName="lastName" value="{!v.testUser.lastName}" required="true" />
+        <c:LTNG_SldsInput label="nickname" fieldName="nickName" value="{!v.testUser.Nickname__c}" />
+        <c:LTNG_SldsInput label="user's email" fieldName="email" value="{!v.testUser.Email__c}" required="true" />
+        <c:LTNG_SldsInput label="user's password" fieldName="password" value="{!v.testUser.Password__c}" required="true" secret="true" />
+        
+        <div class="slds-form-element">
+            <ui:button class="slds-button slds-button--neutral" press="{!c.cancel}" label="Cancel" />
+            <c:LTNG_SaveTestUserButton testUser="{!v.testUser}" caseStudyId="{!v.recordId}" />
+        </div>
+    </div>
+</aura:component>

@@ -1,0 +1,35 @@
+<aura:component >
+    <aura:attribute name="label" type="String" />
+    <aura:attribute name="fieldName" type="String" />
+    <aura:attribute name="value" type="String" />
+    <aura:attribute name="required" type="Boolean" default="false" />
+    <aura:attribute name="secret" type="Boolean" default="false" />
+    
+    <aura:registerEvent name="updateForm" type="c:LTNG_TestUserUpdateEvent" />
+    
+    <aura:handler event="c:LTNG_TestUserInputErrorsEvent" action="{!c.handleInputErrors}"  />
+    
+    <div class="slds-form-element">
+        <label class="slds-form-element__label" for="{!v.fieldName}">Enter {!v.label}:</label>
+        <div class="slds-form-element__control">
+            <aura:if isTrue="{!v.secret}">
+                
+                <!-- 
+					FIXME: Hardcoded aura:id values should be removed.  
+					This is an ugly workaround for an apparent bug.
+				 -->
+                <ui:inputSecret class="slds-input" aura:id="password" value="{!v.value}" required="{!v.required}" change="{!c.onChange}" /> 
+                <aura:set attribute="else">
+                    <aura:if isTrue="{!v.fieldName == 'email'}">
+                        <ui:inputText class="slds-input" aura:id="email" value="{!v.value}" required="{!v.required}" change="{!c.onChange}" /> 
+                		<aura:set attribute="else">        
+                        	<ui:inputText class="slds-input" aura:id="{!v.fieldName}" value="{!v.value}" required="{!v.required}" change="{!c.onChange}" /> 
+                        </aura:set>
+                    </aura:if>
+                </aura:set>
+                
+            </aura:if>
+        </div>
+    </div>
+    
+</aura:component>
