@@ -12,5 +12,16 @@
         <label><!-- Name --></label>
         <name>Name__c</name>
     </fields>
+    <layouts>
+        <layout>Case Study Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Test User --></label>
+        <name>Create_Test_User</name>
+    </quickActions>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
