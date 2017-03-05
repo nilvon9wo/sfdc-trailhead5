@@ -4,4 +4,5 @@
     <tab>standard-Chatter</tab>
     <tab>Case_Study__c</tab>
     <tab>Test_User__c</tab>
+    <tab>Candidate__c</tab>
 </CustomApplication>

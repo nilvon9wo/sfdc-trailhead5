@@ -56,4 +56,8 @@
         <name>Warehouse_Lightning</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>Sample_App</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>
