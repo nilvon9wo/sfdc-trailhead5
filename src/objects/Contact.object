@@ -126,7 +126,7 @@
     </fields>
     <fields>
         <fullName>Email</fullName>
-        <trackFeedHistory>false</trackFeedHistory>
+        <trackFeedHistory>true</trackFeedHistory>
     </fields>
     <fields>
         <fullName>Fax</fullName>
