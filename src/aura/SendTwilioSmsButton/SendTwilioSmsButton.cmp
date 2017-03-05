@@ -1,0 +1,11 @@
+<aura:component controller="LTNG_TwilioSendSmsAuraCtrl" >
+    <aura:attribute name="textMessage" type="String" />
+    <aura:attribute name="destinationNumber" type="String" />
+    <aura:attribute name="contactId" type="String" />
+    
+    <aura:registerEvent name="sendTwilioSmsErrorEvent" type="c:SendTwilioSmsErrorEvent" />
+    
+    <div class="centered">
+        <ui:button class="slds-button slds-button--brand" press="{!c.sendMessage}" label="Send Message" />
+    </div>
+</aura:component>
