@@ -83,6 +83,18 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Current_Year_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( YEAR( CloseDate ) = YEAR(TODAY()) , Amount  , 0 )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Current Year Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>DeliveryInstallationStatus__c</fullName>
         <externalId>false</externalId>
         <label>Delivery/Installation Status</label>
@@ -192,6 +204,18 @@
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Previous_Year_Amount__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( YEAR( CloseDate ) = YEAR(TODAY()) - 1 , Amount , 0 )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Previous Year Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
     </fields>
     <fields>
         <fullName>Pricebook2Id</fullName>

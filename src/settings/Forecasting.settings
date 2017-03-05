@@ -230,6 +230,10 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000BxOMo</field>
+            <label>Current Year Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -248,6 +252,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLp</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000BxOMp</field>
+            <label>Previous Year Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLq</field>
@@ -288,11 +296,13 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N0Y00000BbhLm</field>
+            <field>00N0Y00000BxOMo</field>
             <field>00N0Y00000BbhLn</field>
             <field>00N0Y00000ARfXG</field>
             <field>00N0Y00000ARfXF</field>
             <field>00N0Y00000BbhLo</field>
             <field>00N0Y00000BbhLp</field>
+            <field>00N0Y00000BxOMp</field>
             <field>00N0Y00000BbhLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
@@ -452,6 +462,10 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000BxOMo</field>
+            <label>Current Year Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -470,6 +484,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLp</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000BxOMp</field>
+            <label>Previous Year Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLq</field>
@@ -510,11 +528,13 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N0Y00000BbhLm</field>
+            <field>00N0Y00000BxOMo</field>
             <field>00N0Y00000BbhLn</field>
             <field>00N0Y00000ARfXG</field>
             <field>00N0Y00000ARfXF</field>
             <field>00N0Y00000BbhLo</field>
             <field>00N0Y00000BbhLp</field>
+            <field>00N0Y00000BxOMp</field>
             <field>00N0Y00000BbhLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
@@ -674,6 +694,10 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000BxOMo</field>
+            <label>Current Year Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -692,6 +716,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLp</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000BxOMp</field>
+            <label>Previous Year Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLq</field>
@@ -732,11 +760,13 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N0Y00000BbhLm</field>
+            <field>00N0Y00000BxOMo</field>
             <field>00N0Y00000BbhLn</field>
             <field>00N0Y00000ARfXG</field>
             <field>00N0Y00000ARfXF</field>
             <field>00N0Y00000BbhLo</field>
             <field>00N0Y00000BbhLp</field>
+            <field>00N0Y00000BxOMp</field>
             <field>00N0Y00000BbhLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
@@ -896,6 +926,10 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000BxOMo</field>
+            <label>Current Year Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -914,6 +948,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLp</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000BxOMp</field>
+            <label>Previous Year Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLq</field>
@@ -954,11 +992,13 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N0Y00000BbhLm</field>
+            <field>00N0Y00000BxOMo</field>
             <field>00N0Y00000BbhLn</field>
             <field>00N0Y00000ARfXG</field>
             <field>00N0Y00000ARfXF</field>
             <field>00N0Y00000BbhLo</field>
             <field>00N0Y00000BbhLp</field>
+            <field>00N0Y00000BxOMp</field>
             <field>00N0Y00000BbhLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
@@ -1126,6 +1166,10 @@
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000BxOMo</field>
+            <label>Current Year Amount</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLn</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
@@ -1144,6 +1188,10 @@
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLp</field>
             <label>Order Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>00N0Y00000BxOMp</field>
+            <label>Previous Year Amount</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
             <field>00N0Y00000BbhLq</field>
@@ -1186,11 +1234,13 @@
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
             <field>00N0Y00000BbhLm</field>
+            <field>00N0Y00000BxOMo</field>
             <field>00N0Y00000BbhLn</field>
             <field>00N0Y00000ARfXG</field>
             <field>00N0Y00000ARfXF</field>
             <field>00N0Y00000BbhLo</field>
             <field>00N0Y00000BbhLp</field>
+            <field>00N0Y00000BxOMp</field>
             <field>00N0Y00000BbhLq</field>
         </opportunityListFieldsUnselectedSettings>
         <quotasSettings>
